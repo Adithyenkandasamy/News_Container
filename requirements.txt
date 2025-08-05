@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+pydantic
+python-jose[cryptography]  # for JWT token support
+google-generativeai         # Gemini API SDK
+python-dotenv               # to load .env file for secrets
+httpx                       # optional: used if fetching article data from URLs
